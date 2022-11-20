@@ -1,8 +1,8 @@
 import { Box } from '@mui/material';
 import { Helmet } from 'react-helmet';
 import DownArrow from '../../../components/down-arrow/down-arrow.component'
-import logo from '../../../images/Rupee-logo-dark.png'
-import home from '../../../images/home-mob.jpg'
+import logo from '../../../images/gabbgroup.png'
+import home from '../../../images/codecode.webp'
 import { useLayoutEffect } from 'react';
 
 const SectionOne = () => {
@@ -36,11 +36,10 @@ const SectionOne = () => {
         <div className='flex items-center flex-col'>
           <div className='p-2'>
             <img className='w-96 mt-56' src={logo} alt='logo' />
-            <p className='text-white text-right font-medium'>Solutions</p>
           </div>
           <div>
             <h1 className='text-4xl text-white font-semibold mt-12 px-10'>
-              Full control over accounting, tax and payroll tasks. Automate deadlines and obligations.
+            Expertise in .NET & JavaScript Recruitment.
             </h1>
           </div>
           <div className='cursor-pointer'>

@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import DownArrow from '../../../components/down-arrow/down-arrow.component'
-import logo from '../../../images/Rupee-logo-dark.png'
-import business from '../../../images/bus.jpg'
+import logo from '../../../images/gabbgroup.png'
+import business from '../../../images/codecode.webp'
 import { useLayoutEffect } from 'react';
 
 const SectionOne = () => {

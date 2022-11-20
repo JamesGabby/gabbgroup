@@ -6,11 +6,10 @@ function Footer() {
 
   return (
     <div className="footer">
-      <p className="text-l text-white font-semibold pt-4">+447746767412</p>
       <p className="text-l text-white font-semibold py-2">
-        <a href="mailto:oliver.jones@rupee.solutions" target="_blank" rel="noreferrer">oliver.jones@rupee.solutions</a>
+        <a href="mailto:hello@gabbgroup.co" target="_blank" rel="noreferrer">hello@gabbgroup.co</a>
       </p>
-      <a href="https://www.linkedin.com/company/rupee-uk/" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/company/gabb-group/" target="_blank" rel="noreferrer">
         <img id="linkedin" src={LinkedInLogo} alt="logo" />
       </a>
       <img id='awards' src={Awards} alt="awards" />

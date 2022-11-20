@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { ThemeProvider } from '@emotion/react';
 import { createTheme } from '@mui/material';
-import logo from '../../images/Rupee-logo-dark.png'
+import logo from '../../images/gabbgroup.png'
 import { Link } from 'react-router-dom';
 
 const pages = [
@@ -78,8 +78,7 @@ function Header() {
               }}
             >
               <div>
-                <Link to="/"><img className='w-32' src={logo} alt='logo' /></Link>
-                <p className='text-white text-right' style={{ fontSize: '.4rem'}}>Solutions</p>
+                <Link to="/"><img className='w-40' src={logo} alt='logo' /></Link>
               </div>
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -131,7 +130,6 @@ function Header() {
             >
               <div>
                 <img className='w-32' src={logo} alt='logo' />
-                <p className='text-white text-right text-xs'>Solutions</p>
               </div>
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
