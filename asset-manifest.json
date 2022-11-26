@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/gabbgroup/static/css/main.eb045672.css",
-    "main.js": "/gabbgroup/static/js/main.ac73dba7.js",
+    "main.css": "/gabbgroup/static/css/main.8db85299.css",
+    "main.js": "/gabbgroup/static/js/main.3d2e2f25.js",
     "static/js/787.178a41b4.chunk.js": "/gabbgroup/static/js/787.178a41b4.chunk.js",
     "static/media/codecode.webp": "/gabbgroup/static/media/codecode.3cb98c5dc7e619f14707.webp",
+    "static/media/gabbgroupalt.png": "/gabbgroup/static/media/gabbgroupalt.089216a32a350c19f3dd.png",
     "static/media/award.png": "/gabbgroup/static/media/award.a80fbcb51d2f05d117a0.png",
     "static/media/gabbgroup.png": "/gabbgroup/static/media/gabbgroup.73835695c89d9e37a492.png",
     "index.html": "/gabbgroup/index.html",
-    "main.eb045672.css.map": "/gabbgroup/static/css/main.eb045672.css.map",
-    "main.ac73dba7.js.map": "/gabbgroup/static/js/main.ac73dba7.js.map",
+    "main.8db85299.css.map": "/gabbgroup/static/css/main.8db85299.css.map",
+    "main.3d2e2f25.js.map": "/gabbgroup/static/js/main.3d2e2f25.js.map",
     "787.178a41b4.chunk.js.map": "/gabbgroup/static/js/787.178a41b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb045672.css",
-    "static/js/main.ac73dba7.js"
+    "static/css/main.8db85299.css",
+    "static/js/main.3d2e2f25.js"
   ]
 }
