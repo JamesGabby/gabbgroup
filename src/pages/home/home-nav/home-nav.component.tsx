@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom';
 const images = [
   {
     url: 'https://www.accountantsdaily.com.au/images/articleimages-391x261/850x492/accounting_forex_ad.jpg',
-    title: 'Rupee For Accounting Firms',
+    title: "Read what we're about.",
     width: '50%',
     link: 'accounting/#top'
   },
   {
     url: 'https://media.www.kent.ac.uk/se/25928/MEIB1920x1080_2000w.jpg',
-    title: 'Rupee For Corporations',
+    title: 'Check out some open vacancies.',
     width: '50%',
     link: 'business'
   }
@@ -86,7 +86,7 @@ const ImageMarked = styled('span')(({ theme }) => ({
 
 export default function ButtonBases() {
   return (
-    <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
+    <Box id="/#s1" sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
       {images.map((image) => (
         
         <ImageButton

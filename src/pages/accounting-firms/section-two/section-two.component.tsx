@@ -8,7 +8,7 @@ const SectionTwo = () => {
       sx={{
         width: '100%',
         backgroundColor: '#000',
-        paddingBottom: 10
+        padding: '6rem 0',
       }}
     >
       <Grid id='/accounting/#s1' container sx={{ flexGrow: 1 }} spacing={1}>

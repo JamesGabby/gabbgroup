@@ -22,15 +22,15 @@ const SectionOne = () => {
     >
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Rupee Solutions UK</title>
+        <title>GabbGroup</title>
         <link rel="canonical" href="https://rupeesolutions.co.uk/" />
-        <meta name="description" content="Intelligent management of tax, accounting and payroll processes." />
+        <meta name="description" content="Expertise in .NET & JavaScript Recruitment." />
       </Helmet>
       <Box
         sx={{
           width: '100%',
           height: 800,
-          backgroundColor: 'rgba(0, 0, 0, 0.7)',
+          backgroundColor: 'rgba(0, 0, 0, 0.8)',
         }}
       >
         <div className='flex items-center flex-col'>
@@ -39,7 +39,7 @@ const SectionOne = () => {
           </div>
           <div>
             <h1 className='text-4xl text-white font-semibold mt-12 px-10'>
-            Expertise in .NET & JavaScript Recruitment.
+              Expertise in .NET & JavaScript Recruitment.
             </h1>
           </div>
           <div className='cursor-pointer'>

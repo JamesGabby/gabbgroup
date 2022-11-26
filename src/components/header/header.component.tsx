@@ -12,10 +12,11 @@ import MenuItem from '@mui/material/MenuItem';
 import { ThemeProvider } from '@emotion/react';
 import { createTheme } from '@mui/material';
 import logo from '../../images/gabbgroup.png'
+import logoalt from '../../images/gabbgroupalt.png'
 import { Link } from 'react-router-dom';
 
 const pages = [
-  { title: 'For Accounting Firms', link: "/accounting" }, { title: 'For Businesses', link: "/business" }
+  { title: 'About', link: "/about" }, { title: 'Vacancies', link: "/vacancies" }
 ];
 
 declare module '@mui/material/styles' {
@@ -43,7 +44,7 @@ const blackHeaderTheme = createTheme({
 const darkBlueHeaderTheme = createTheme({
   palette: {
     primary: {
-      main: '#12263A',
+      main: 'rgba(21, 28, 72, 1)',
     },
   },
 });
@@ -78,7 +79,7 @@ function Header() {
               }}
             >
               <div>
-                <Link to="/"><img className='w-40' src={logo} alt='logo' /></Link>
+                <Link to="/"><img className='w-40' src={hasScrolled ? logoalt : logo} alt='logo' /></Link>
               </div>
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
