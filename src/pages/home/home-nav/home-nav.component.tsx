@@ -10,13 +10,13 @@ const images = [
     url: 'https://www.accountantsdaily.com.au/images/articleimages-391x261/850x492/accounting_forex_ad.jpg',
     title: "Read what we're about.",
     width: '50%',
-    link: 'accounting/#top'
+    link: 'about'
   },
   {
     url: 'https://media.www.kent.ac.uk/se/25928/MEIB1920x1080_2000w.jpg',
-    title: 'Check out some open vacancies.',
+    title: 'Check out some of our open vacancies.',
     width: '50%',
-    link: 'business'
+    link: 'vacancies'
   }
 ];
 

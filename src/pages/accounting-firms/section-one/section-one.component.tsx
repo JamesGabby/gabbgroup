@@ -2,14 +2,8 @@ import { Box } from '@mui/material';
 import DownArrow from '../../../components/down-arrow/down-arrow.component'
 import logo from '../../../images/gabbgroup.png'
 import accounting from '../../../images/codecode.webp'
-import { useLayoutEffect } from 'react';
 
 const SectionOne = () => {
-
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0)
-  });
-  
   return (
     <Box id="top"
       sx={{
