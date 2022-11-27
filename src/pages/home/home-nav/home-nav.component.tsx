@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 
 const images = [
   {
-    url: 'https://www.accountantsdaily.com.au/images/articleimages-391x261/850x492/accounting_forex_ad.jpg',
+    url: 'https://media.www.kent.ac.uk/se/25928/MEIB1920x1080_2000w.jpg',
     title: "Read what we're about.",
     width: '50%',
     link: 'about'
   },
   {
-    url: 'https://media.www.kent.ac.uk/se/25928/MEIB1920x1080_2000w.jpg',
+    url: 'https://thumbs.dreamstime.com/b/dream-job-concept-best-manager-throw-paper-plane-symbolizing-74375335.jpg',
     title: 'Check out some of our open vacancies.',
     width: '50%',
     link: 'vacancies'

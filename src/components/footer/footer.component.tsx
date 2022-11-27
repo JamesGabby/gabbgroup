@@ -1,5 +1,4 @@
 import LinkedInLogo from '../../images/linkedin.png';
-import Awards from '../../images/award.png'
 import './footer.styles.css';
 
 function Footer() {
@@ -13,7 +12,6 @@ function Footer() {
       <a href="https://www.linkedin.com/company/gabb-group/" target="_blank" rel="noreferrer">
         <img id="linkedin" src={LinkedInLogo} alt="logo" />
       </a>
-      <img id='awards' src={Awards} alt="awards" />
     </div>
   )
 }

@@ -1,6 +1,8 @@
 import { Box, Grid, Paper } from '@mui/material';
 import { paperContent } from './paperContent';
 import { useLayoutEffect } from 'react';
+import blue2 from '../../../images/blue2.avif'
+
 
 const SectionTwo = () => {
 
@@ -9,13 +11,22 @@ const SectionTwo = () => {
   });
 
   return (
-    <Box 
+    <Box
       sx={{
         width: '100%',
-        backgroundColor: '#191818',
-        padding: '6rem 0',
+        backgroundImage: `url(${blue2})`,
+        backgroundSize: 'cover',
+        
       }}
     >
+      <Box
+        sx={{
+          width: '100%',
+          backgroundColor: 'rgba(0, 0, 0, 0.7)',
+          paddingBottom: 10,
+          paddingTop: 5
+        }}
+      >
       <Grid id='/accounting/#s1' container sx={{ flexGrow: 1 }} spacing={1}>
         <Grid item xs={12}>
           <h1 className='text-4xl text-green-100 font-semibold mt-20 px-1'><b>You</b> Are Our Focus</h1>
@@ -46,6 +57,7 @@ const SectionTwo = () => {
           </Grid>
         </Grid>
       </Grid>
+    </Box>
     </Box>
   )
 }
