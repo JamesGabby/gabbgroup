@@ -16,7 +16,7 @@ const SectionTwo = () => {
           <Grid container justifyContent="center" spacing={1} sx={{ marginTop: 0 }}>
             {paperContent.map((value) => (
               <Grid key={value.id} item>
-                <Paper sx={{ height: 350, width: 350, background: '#decdc6', borderRadius: '10%' }} elevation={0}>
+                <Paper sx={{ height: 380, width: 350, background: '#decdc6', borderRadius: '10%' }} elevation={0}>
                     {value.icon}
                     <h1 className='text-3xl font-semibold p-5'>{value.title}</h1>
                     <p className='text-xl px-5'>{value.description}</p>
