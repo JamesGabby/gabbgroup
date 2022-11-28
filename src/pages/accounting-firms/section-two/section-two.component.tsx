@@ -32,7 +32,7 @@ const SectionTwo = () => {
           <h1 className='text-4xl text-green-100 font-semibold mt-20 px-1'><b>You</b> Are Our Focus</h1>
           <div className='w-full flex justify-around'>
             <div className='text-white text-left text-xl mt-10 px-10 max-w-4xl flex flex-wrap'>
-              <p>Here at GabbGroup we specialise in software development talent solutions across the South of England within the FinTech realm.</p>
+              <p>Here at GabbGroup we specialise in software development talent solutions across the United Kingdom within the FinTech realm.</p>
               <p className='mt-4'>Our aim is simple: To provide unique opportunities to our candidates, and provide exceptional value 
                 to our clients. All the while maintaining our "best practice" standards to ensure a smooth and pleasant 
                 recruitment process.
