@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom';
 const images = [
   {
     url: 'https://media.www.kent.ac.uk/se/25928/MEIB1920x1080_2000w.jpg',
-    title: "Read what we're about.",
+    title: "Read What We Are About",
     width: '50%',
     link: 'about'
   },
   {
     url: 'https://thumbs.dreamstime.com/b/dream-job-concept-best-manager-throw-paper-plane-symbolizing-74375335.jpg',
-    title: 'Check out some of our open vacancies.',
+    title: 'Check Out Some Of Our Open Vacancies',
     width: '50%',
     link: 'vacancies'
   }

@@ -1,5 +1,4 @@
 import { Box } from '@mui/material';
-import { Helmet } from 'react-helmet';
 import DownArrow from '../../../components/down-arrow/down-arrow.component'
 import logo from '../../../images/gabbgroup.png'
 import home from '../../../images/codecode.webp'
@@ -20,12 +19,6 @@ const SectionOne = () => {
         backgroundSize: 'cover'
       }}
     >
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>GabbGroup</title>
-        <link rel="canonical" href="https://rupeesolutions.co.uk/" />
-        <meta name="description" content="Expertise in .NET & JavaScript Recruitment." />
-      </Helmet>
       <Box
         sx={{
           width: '100%',

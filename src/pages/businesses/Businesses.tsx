@@ -1,11 +1,17 @@
-import SectionOne from "./section-one/section-one.component";
+import { Helmet } from "react-helmet-async";
 import SectionTwo from "./section-two/section-two.component";
-import SectionThree from "./section-three/section-three.component";
 
 const Businesses = () => {
 
   return (
     <div className="App">
+      <Helmet>
+        <title>Vacancies</title>
+        <meta 
+          name='description' 
+          content='GabbGroup FinTech Recruitment Consultancy Vacancies, .NET and JavaScript Jobs' 
+        />
+      </Helmet>
       <SectionTwo />
     </div>
   );
