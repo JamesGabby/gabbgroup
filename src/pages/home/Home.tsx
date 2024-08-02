@@ -9,7 +9,7 @@ const Home = () => (
       <title>Home</title>
       <meta 
         name='description' 
-        content='GabbGroup FinTech Recruitment Consultancy Homepage' 
+        content='GabbGroup Tech Recruitment Consultancy Homepage' 
       />
     </Helmet>
     <SectionOne />

@@ -7,7 +7,7 @@ const Accounting = () => (
       <title>About</title>
       <meta 
         name='description' 
-        content='GabbGroup FinTech Recruitment Consultancy About Page' 
+        content='GabbGroup Recruitment Consultancy About Page' 
       />
     </Helmet>
     <SectionTwo />

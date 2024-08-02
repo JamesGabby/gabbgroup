@@ -9,7 +9,7 @@ const Businesses = () => {
         <title>Vacancies</title>
         <meta 
           name='description' 
-          content='GabbGroup FinTech Recruitment Consultancy Vacancies, .NET and JavaScript Jobs' 
+          content='GabbGroup Recruitment Consultancy Vacancies, Tech Jobs' 
         />
       </Helmet>
       <SectionTwo />
