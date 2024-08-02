@@ -32,7 +32,7 @@ const SectionOne = () => {
           </div>
           <div>
             <h1 className='text-4xl text-white font-semibold mt-12 px-10'>
-              Expertise in .NET & JavaScript Recruitment.
+              Expertise in Tech Recruitment.
             </h1>
           </div>
           <div className='cursor-pointer'>
