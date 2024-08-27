@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
+import LazyLoad from 'react-lazyload';
 
 const images = [
   {
@@ -87,6 +88,7 @@ const ImageMarked = styled('span')(({ theme }) => ({
 export default function ButtonBases() {
   return (
     <Box id="/#s1" sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
+      
       {images.map((image) => (
         
         <ImageButton
@@ -98,27 +100,30 @@ export default function ButtonBases() {
         >
           <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
           <ImageBackdrop className="MuiImageBackdrop-root" />
-          <Image>
-            <Link to={image.link}>
-            <Typography
-              component="span"
-              variant="subtitle1"
-              color="inherit"
-              sx={{
-                position: 'relative',
-                p: 4,
-                pt: 2,
-                pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
-              }}
-            >
-              {image.title}
-              <ImageMarked className="MuiImageMarked-root" />
-            </Typography>
-            </Link>
-          </Image>
+          <LazyLoad height={200} offset={100}>
+            <Image>
+              <Link to={image.link}>
+              <Typography
+                component="span"
+                variant="subtitle1"
+                color="inherit"
+                sx={{
+                  position: 'relative',
+                  p: 4,
+                  pt: 2,
+                  pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                }}
+              >
+                {image.title}
+                <ImageMarked className="MuiImageMarked-root" />
+              </Typography>
+              </Link>
+            </Image>
+          </LazyLoad>
         </ImageButton>
         
       ))}
+      
     </Box>
   );
 }

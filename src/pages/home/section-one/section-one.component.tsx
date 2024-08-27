@@ -3,6 +3,7 @@ import DownArrow from '../../../components/down-arrow/down-arrow.component'
 import logo from '../../../images/gabbgroup.png'
 import home from '../../../images/codecode.webp'
 import { useLayoutEffect } from 'react';
+import LazyLoad from 'react-lazyload';
 
 const SectionOne = () => {
 
@@ -28,7 +29,9 @@ const SectionOne = () => {
       >
         <div className='flex items-center flex-col'>
           <div className='p-2'>
-            <img className='w-96 mt-56' src={logo} alt='logo' />
+            <LazyLoad height={200} offset={100}>
+              <img className='w-96 mt-56' src={logo} alt='logo' />
+            </LazyLoad>
           </div>
           <div>
             <h1 className='text-4xl text-white font-semibold mt-12 px-10'>
